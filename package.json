@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-remark-jsx",
+  "keywords": [
+    "markdown",
+    "jsx",
+    "gatsby",
+    "hast",
+    "custom elements"
+  ],
+  "version": "0.0.1",
+  "description": "Plugin to enable JSX inside markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "gatsby-node.js",
+    "extend-node-type.js"
+  ],
+  "author": "Pierre Bellon <bellon.pierre@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@dumpster/remark-custom-element-to-hast": "^0.7.1",
+    "graphql-type-json": "^0.2.0",
+    "remark-parse": "^5.0.0",
+    "unified": "^6.1.6"
+  }
+}
