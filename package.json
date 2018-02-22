@@ -7,7 +7,7 @@
     "hast",
     "custom elements"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin to enable JSX inside markdown",
   "main": "index.js",
   "scripts": {
@@ -20,10 +20,5 @@
   ],
   "author": "Pierre Bellon <bellon.pierre@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "@dumpster/remark-custom-element-to-hast": "^0.7.1",
-    "graphql-type-json": "^0.2.0",
-    "remark-parse": "^5.0.0",
-    "unified": "^6.1.6"
-  }
+  "dependencies": {}
 }
