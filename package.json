@@ -21,6 +21,7 @@
   "author": "Pierre Bellon <bellon.pierre@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql": "^0.13.1"
+    "graphql": "^0.13.1",
+    "remark-parse": "^5.0.0"
   }
 }
